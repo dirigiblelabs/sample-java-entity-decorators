@@ -26,7 +26,7 @@ public class CountryController {
     @Inject
     private CountryRepository countries;
 
-    @Get("/list")
+    @Get("/")
     @Documentation("Lists every Country")
     public List<Country> list() {
         return countries.findAll();
