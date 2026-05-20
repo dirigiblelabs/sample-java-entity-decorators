@@ -9,7 +9,7 @@ import org.eclipse.dirigible.engine.java.annotations.Id;
 import org.eclipse.dirigible.engine.java.annotations.Table;
 
 @Entity
-@Table(name = "COUNTRIES")
+@Table(name = "SAMPLE_COUNTRY")
 @Documentation("Sample Country Entity")
 public class Country {
 
@@ -18,16 +18,16 @@ public class Country {
     @Documentation("Auto-generated primary key")
     public Long id;
 
-    @Column(name = "CODE2", length = 2)
+    @Column(name = "COUNTRY_CODE2", length = 2)
     public String code2;
 
-    @Column(name = "CODE3", length = 3)
+    @Column(name = "COUNTRY_CODE3", length = 3)
     public String code3;
 
-    @Column(name = "NUMERIC", length = 3)
+    @Column(name = "COUNTRY_NUMERIC", length = 3)
     public String numericCode;
 
-    @Column(name = "NAME", length = 128)
+    @Column(name = "COUNTRY_NAME", length = 128)
     @Documentation("Official short name")
     public String name;
 
