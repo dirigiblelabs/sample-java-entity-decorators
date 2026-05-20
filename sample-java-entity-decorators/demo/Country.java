@@ -15,6 +15,7 @@ public class Country {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "COUNTRY_ID")
     @Documentation("Auto-generated primary key")
     public Long id;
 
