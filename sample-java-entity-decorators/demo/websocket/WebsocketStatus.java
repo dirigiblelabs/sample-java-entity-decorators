@@ -3,8 +3,8 @@ package demo.websocket;
 import java.util.Map;
 
 import org.eclipse.dirigible.components.base.spring.BeanProvider;
-import org.eclipse.dirigible.engine.java.annotations.http.Controller;
-import org.eclipse.dirigible.engine.java.annotations.http.Get;
+import org.eclipse.dirigible.sdk.http.Controller;
+import org.eclipse.dirigible.sdk.http.Get;
 import org.eclipse.dirigible.engine.java.websocket.JavaWebsocketRegistry;
 
 /**

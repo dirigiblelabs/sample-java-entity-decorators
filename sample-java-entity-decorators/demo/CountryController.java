@@ -2,15 +2,15 @@ package demo;
 
 import java.util.List;
 
-import org.eclipse.dirigible.engine.java.annotations.Documentation;
-import org.eclipse.dirigible.engine.java.annotations.Inject;
-import org.eclipse.dirigible.engine.java.annotations.http.Body;
-import org.eclipse.dirigible.engine.java.annotations.http.Controller;
-import org.eclipse.dirigible.engine.java.annotations.http.Delete;
-import org.eclipse.dirigible.engine.java.annotations.http.Get;
-import org.eclipse.dirigible.engine.java.annotations.http.PathParam;
-import org.eclipse.dirigible.engine.java.annotations.http.Post;
-import org.eclipse.dirigible.engine.java.annotations.http.Roles;
+import org.eclipse.dirigible.sdk.platform.Documentation;
+import org.eclipse.dirigible.sdk.component.Inject;
+import org.eclipse.dirigible.sdk.http.Body;
+import org.eclipse.dirigible.sdk.http.Controller;
+import org.eclipse.dirigible.sdk.http.Delete;
+import org.eclipse.dirigible.sdk.http.Get;
+import org.eclipse.dirigible.sdk.http.PathParam;
+import org.eclipse.dirigible.sdk.http.Post;
+import org.eclipse.dirigible.sdk.security.Roles;
 
 /**
  * REST surface for {@link Country}. Demonstrates the recommended client-code pattern: the

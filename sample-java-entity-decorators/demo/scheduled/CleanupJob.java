@@ -1,6 +1,6 @@
 package demo.scheduled;
 
-import org.eclipse.dirigible.engine.java.annotations.Scheduled;
+import org.eclipse.dirigible.sdk.job.Scheduled;
 
 /**
  * Demonstrates {@code @Scheduled}: fires every second via Quartz. Each execution logs a line that

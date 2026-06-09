@@ -1,12 +1,12 @@
 package demo;
 
-import org.eclipse.dirigible.engine.java.annotations.Column;
-import org.eclipse.dirigible.engine.java.annotations.Documentation;
-import org.eclipse.dirigible.engine.java.annotations.Entity;
-import org.eclipse.dirigible.engine.java.annotations.GeneratedValue;
-import org.eclipse.dirigible.engine.java.annotations.GenerationType;
-import org.eclipse.dirigible.engine.java.annotations.Id;
-import org.eclipse.dirigible.engine.java.annotations.Table;
+import org.eclipse.dirigible.sdk.db.Column;
+import org.eclipse.dirigible.sdk.platform.Documentation;
+import org.eclipse.dirigible.sdk.db.Entity;
+import org.eclipse.dirigible.sdk.db.GeneratedValue;
+import org.eclipse.dirigible.sdk.db.GenerationType;
+import org.eclipse.dirigible.sdk.db.Id;
+import org.eclipse.dirigible.sdk.db.Table;
 
 @Entity
 @Table(name = "SAMPLE_COUNTRY")

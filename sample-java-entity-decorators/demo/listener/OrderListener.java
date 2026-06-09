@@ -1,7 +1,7 @@
 package demo.listener;
 
-import org.eclipse.dirigible.engine.java.annotations.Listener;
-import org.eclipse.dirigible.engine.java.annotations.ListenerKind;
+import org.eclipse.dirigible.sdk.messaging.Listener;
+import org.eclipse.dirigible.sdk.messaging.ListenerKind;
 
 /**
  * Demonstrates {@code @Listener}: connects to the ActiveMQ queue {@code "java-order-queue"} and
