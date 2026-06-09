@@ -1,6 +1,6 @@
 package demo.websocket;
 
-import org.eclipse.dirigible.engine.java.annotations.Websocket;
+import org.eclipse.dirigible.sdk.net.Websocket;
 
 /**
  * Demonstrates {@code @Websocket}: registers this class as the handler for the
