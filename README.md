@@ -29,3 +29,11 @@ controller routes:
 
 The OpenAPI fragment for the controller is published automatically at
 `/services/openapi`.
+
+## Dependency injection styles
+
+- **Field injection** — `CountryController` uses `@Inject CountryRepository` (still supported).
+- **Constructor injection (preferred)** — `GreetingController` receives a `@Component GreetingService` through its constructor; more testable.
+- **Programmatic lookup** — `Beans.get(...)` for when an injection point isn't convenient.
+
+See the [Develop guide](https://www.dirigible.io/help/develop/dependency-injection/) and the [Java SDK](https://www.dirigible.io/sdk/).
